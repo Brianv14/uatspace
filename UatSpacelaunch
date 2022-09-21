@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Uat Space Program</title>
+	</head>
+	<body>
+        Uat Space Program
+    </body>
+</html>
+<img  src="https://synchronic.uat.edu/courses/4554/files/591923/preview"  alt="" width="105" height="101"  /img>
+	<table style="height: 611px;" width="466">
+		<tbody>
+			<tr style="height: 23px;">
+				<td style="width: 232.5px; height: 23px;">Data Type</td>
+				<td style="width: 232.5px; height: 23px;">Readings</td>
+			</tr>
+			<tr style="height: 23px;">
+				<td style="width: 232.5px; height: 23px;">Time elapsed:</td>
+				<td style="width: 232.5px; height: 23px;">&nbsp;</td>
+			</tr>
+			<tr style="height: 23.2031px;">
+				<td style="width: 232.5px; height: 23.2031px;">latitud:</td>
+				<td style="width: 232.5px; height: 23.2031px;">&nbsp;</td>
+			</tr>
+			<tr style="height: 23px;">
+				<td style="width: 232.5px; height: 23px;">longitude:</td>
+				<td style="width: 232.5px; height: 23px;">&nbsp;</td>
+			</tr>
+			<tr style="height: 23px;">
+				<td style="width: 232.5px; height: 23px;">GPS altitude:</td>
+				<td style="width: 232.5px; height: 23px;">&nbsp;</td>
+			</tr>
+			<tr style="height: 23px;">
+				<td style="width: 232.5px; height: 23px;">BMP Sensor Altitude:</td>
+				<td style="width: 232.5px; height: 23px;">&nbsp;</td>
+			</tr>
+			<tr style="height: 23px;">
+				<td style="width: 232.5px; height: 23px;">BMP Sensor Pressure:</td>
+				<td style="width: 232.5px; height: 23px;">&nbsp;</td>
+			</tr>
+			<tr style="height: 23px;">
+				<td style="width: 232.5px; height: 23px;">BMP Sensor Temperature:</td>
+				<td style="width: 232.5px; height: 23px;">&nbsp;</td>
+			</tr>
+			<tr style="height: 23px;">
+				<td style="width: 232.5px; height: 23px;">Digital Sensor Temperature:</td>
+				<td style="width: 232.5px; height: 23px;">&nbsp;</td>
+			</tr>
+			<tr style="height: 23px;">
+				<td style="width: 232.5px; height: 23px;">CSS Sensor eC02:</td>
+				<td style="width: 232.5px; height: 23px;">&nbsp;</td>
+			</tr>
+			<tr style="height: 23px;">
+				<td style="width: 232.5px; height: 23px;">CSS Sensor TV0C:</td>
+				<td style="width: 232.5px; height: 23px;">&nbsp;</td>
+			</tr>
+			<tr style="height: 23px;">
+				<td style="width: 232.5px; height: 23px;">UV:</td>
+				<td style="width: 232.5px; height: 23px;">&nbsp;</td>
+			</tr>
+			<tr style="height: 23px;">
+				<td style="width: 232.5px; height: 23px;">Accel x:</td>
+				<td style="width: 232.5px; height: 23px;">&nbsp;</td>
+			</tr>
+			<tr style="height: 6px;">
+				<td style="width: 232.5px; height: 6px;">Accel y:</td>
+				<td style="width: 232.5px; height: 6px;">&nbsp;</td>
+			</tr>
+			<tr style="height: 23px;">
+				<td style="width: 232.5px; height: 23px;">Accel z:</td>
+				<td style="width: 232.5px; height: 23px;">&nbsp;</td>
+			</tr>
+			<tr style="height: 23px;">
+				<td style="width: 232.5px; height: 23px;">Magnetic X:</td>
+				<td style="width: 232.5px; height: 23px;">&nbsp;</td>
+			</tr>
+			<tr style="height: 23px;">
+				<td style="width: 232.5px; height: 23px;">Magnetic Y:</td>
+				<td style="width: 232.5px; height: 23px;">&nbsp;</td>
+			</tr>
+			<tr style="height: 23px;">
+				<td style="width: 232.5px; height: 23px;">Magnetic Z:</td>
+				<td style="width: 232.5px; height: 23px;">&nbsp;</td>
+			</tr>
+			<tr style="height: 23px;">
+				<td style="width: 232.5px; height: 23px;">Gryo X:</td>
+				<td style="width: 232.5px; height: 23px;">&nbsp;</td>
+			</tr>
+			<tr style="height: 23px;">
+				<td style="width: 232.5px; height: 23px;">Gyro Y:</td>
+				<td style="width: 232.5px; height: 23px;">&nbsp;</td>
+			</tr>
+			<tr style="height: 23px;">
+				<td style="width: 232.5px; height: 23px;">Gyro Z:</td>
+				<td style="width: 232.5px; height: 23px;">&nbsp;</td>
+			</tr>
+		</tbody>
+	</table>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+	<div class="timer">
+		<span class="hour">00</span>:
+		<span class="minute">00</span>:
+		<span class="second">10</span>
+	</div>
+	<div class="control">
+		<button onClick="timer.start(1000)">Start</button>
+		<button onClick="timer.stop()">Stop</button>
+		<button onClick="timer.reset(60)">Reset</button>
+		<button onClick="timer.mode(1)">Count up</button>
+		<button onClick="timer.mode(0)">Count down</button>
+	</div>
